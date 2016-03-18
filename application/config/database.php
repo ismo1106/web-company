@@ -48,11 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost:33066';
-//$db['default']['hostname'] = '192.168.12.127:33066';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '123456';
-$db['default']['database'] = 'db_sambu';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
